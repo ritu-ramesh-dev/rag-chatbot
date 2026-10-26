@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+primaryColor = "#ffc61a"
+backgroundColor = "#08090a"
+secondaryBackgroundColor = "#141516"
+textColor = "#f3f3f1"
+font = "sans serif"
+
+[server]
+runOnSave = true
+maxUploadSize = 20          # MB per file, keeps one visitor from overloading the host
+enableXsrfProtection = true
+enableStaticServing = true  # serves ./static (the live-moon script and its NASA textures) at /app/static/
+
+[browser]
+gatherUsageStats = false

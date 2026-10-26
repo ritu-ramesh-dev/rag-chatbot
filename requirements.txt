@@ -1,0 +1,8 @@
+streamlit>=1.66,<2
+chromadb>=1.5,<2
+pypdf>=6,<7
+anthropic>=2,<3
+google-genai>=2,<3
+fastembed>=0.9,<1
+# Linux hosts (Streamlit Cloud, Hugging Face) often have an old sqlite that Chroma rejects; this bundles a new one.
+pysqlite3-binary; sys_platform == "linux"
