@@ -3,6 +3,9 @@
 Ask questions about a company's 10-K and get answers with citations to the section they came from.
 Built with Python, Streamlit, ChromaDB, and a swappable LLM (Gemini free tier or Claude).
 
+**Live demo: <https://chat-with-your-documents-rag.streamlit.app/>** (bring your own free Gemini key; the Apple 10-K
+sample loads in one click). It runs on a free tier that sleeps when idle, so the first load can take about a minute.
+
 Demo corpus: Apple's FY2025 Form 10-K (filed 2025-10-31).
 
 ## How it works
